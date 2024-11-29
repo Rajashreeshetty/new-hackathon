@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ticket Generator</h1>
+        <div>
+            <label for="ticketTitle">Ticket Title: </label>
+             <input type="text" id="ticketTitle" placeholder="Enter ticket title">
+        </div>
+        <div>
+            <label for="ticketDescription">Description: </label>
+            <textarea id="ticketDescription" placeholder="Enter description"></textarea>
+        </div>
+        <div>
+            <button id="generateButton">Generate Ticket</button>
+        </div>
+        <div id="ticketOutput" class="ticket-output">
+            <!-- Generated ticket will appear here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
